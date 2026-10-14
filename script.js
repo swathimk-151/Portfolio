@@ -83,5 +83,5 @@ $('#rev').onclick=e=>{const b=e.currentTarget,r=b.getBoundingClientRect(),cx=r.l
  b.classList.add('done');const c=$('#cinfo');c.classList.add('show');$$('#cinfo a').forEach((a,i)=>a.style.transitionDelay=i*120+'ms')};
 
 /* resume download */
-function getResume(){const a=document.createElement('a');a.href='assets/Swathi_M_K_Resume.pdf';a.download='Swathi_M_K_Resume.pdf';document.body.append(a);a.click();a.remove()}
+function getResume(){const a=document.createElement('a');a.href='assets/Swathi M K-Resume_FS.pdf (1).pdf';a.download='Swathi_M_K_Resume.pdf';document.body.append(a);a.click();a.remove()}
 $$('.dl').forEach(b=>b.addEventListener('click',getResume));
